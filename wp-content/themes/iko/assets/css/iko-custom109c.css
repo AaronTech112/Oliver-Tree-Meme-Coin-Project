@@ -1,0 +1,107 @@
+/* Search results  CSS */
+.search-results .blog-standard-post.type-product {
+    max-width: 800px;
+}
+.search-results .blog-standard-post.type-product .blog-content:not(.blog-details-content) .post-text {
+    margin: 0 0;
+}
+.search-results .blog-standard-post.type-product .blog-content .post-text p {
+    margin: 0 0;
+}
+.search-results .blog-standard-post.type-product .blog-content .title {
+    margin-bottom: 15px;
+}
+.mc4wp-alert {
+    margin: 20px 0 0;
+    text-align: center;
+}
+.mc4wp-alert p {
+    margin: 0 0;
+}
+.mc4wp-success p {
+    color: green;
+}
+.hide-arrow::after {
+    display: none !important;
+}
+
+/* Elementor Custom CSS */
+.main-area {
+    overflow: hidden;
+}
+.iko-menu-not-showing {
+    padding: 25px 0 !important;
+}
+.gradient-bg,
+.gradient-bg2,
+.gradient-bg3 {
+    position: relative;
+}
+.gradient-bg::after,
+.gradient-bg2::after,
+.gradient-bg3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, var(--tg-primary-color) 0%, var(--tg-green) 47.60%, transparent 65.23%);
+    z-index: -1;
+    border-radius: 0px 0px 20px 20px;
+}
+.gradient-bg2::after {
+    transform: rotate(180deg);
+}
+.gradient-bg3::after {
+    background: linear-gradient(0deg, var(--tg-primary-color) 0%, var(--tg-green) 47.60%, transparent 91.23%);
+}
+.color-title span {
+    color: var(--tg-primary-color);
+}
+.map-height-100 {
+    height: 100% !important;
+}
+.map-height-100 .elementor-custom-embed {
+    height: 100%;
+}
+.me-auto .navigation {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+.me-auto .navigation {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+.m-auto .navigation {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.ms-auto .navigation {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+.right-0 {
+    right: 0 !important;
+}
+
+/* Elementor Responsive */
+@media (max-width: 1800px) {
+
+}
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px){
+
+}
+
+@media (max-width: 767.98px) {
+.gradient-bg,
+.gradient-bg2,
+.gradient-bg3 {
+    margin: 0 0;
+}
+
+}
